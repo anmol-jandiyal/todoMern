@@ -1,0 +1,36 @@
+.edit-overlay {
+	background-color: rgba(82, 81, 81, 0.228);
+	backdrop-filter: blur(30px);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	height: 100svh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	z-index: 4;
+}
+
+.edit-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	width: 600px;
+	height: 200px;
+}
+
+.edit-overlay-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.edit-overlay input,
+.edit-overlay button {
+	padding: 8px;
+	border-radius: 20px;
+}
